@@ -59,7 +59,7 @@ public class NotaFiscalManterView extends javax.swing.JFrame {
             }
         });
 
-        lblNumero.setText("Número:");
+        lblNumero.setText("ID:");
 
         txtNumero.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -78,7 +78,7 @@ public class NotaFiscalManterView extends javax.swing.JFrame {
                 .addComponent(txtNumero, javax.swing.GroupLayout.PREFERRED_SIZE, 208, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(btnPesquisar)
-                .addContainerGap(18, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         pnlPesquisarLayout.setVerticalGroup(
             pnlPesquisarLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
